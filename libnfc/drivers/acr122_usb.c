@@ -574,7 +574,7 @@ acr122_usb_send(nfc_device *pnd, const uint8_t *pbtData, const size_t szData, co
   return NFC_SUCCESS;
 }
 
-#define USB_TIMEOUT_PER_PASS 200
+#define USB_TIMEOUT_PER_PASS 250
 static int
 acr122_usb_receive(nfc_device *pnd, uint8_t *pbtData, const size_t szDataLen, const int timeout)
 {
@@ -710,8 +710,8 @@ read:
     return pnd->last_error;
   }
   offset += 1;
-
-  if (abtRxBuf[offset] != CHIP_DATA(pnd)->last_command + 1) {
+  uint8_t lc = CHIP_DATA(pnd)->last_command;
+  if (abtRxBuf[offset] != lc + 1) {
     log_put(LOG_GROUP, LOG_CATEGORY, NFC_LOG_PRIORITY_ERROR, "%s", "Command Code verification failed");
     pnd->last_error = NFC_EIO;
     return pnd->last_error;

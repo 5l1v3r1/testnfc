@@ -709,7 +709,7 @@ pn53x_writeback_register(struct nfc_device *pnd)
     uint8_t abtRes[PN53x_EXTENDED_FRAME__DATA_MAX_LEN];
     size_t szRes = sizeof(abtRes);
     // It transceives the previously constructed ReadRegister command
-    if ((res = pn53x_transceive(pnd, abtReadRegisterCmd, BUFFER_SIZE(abtReadRegisterCmd), abtRes, szRes, -1)) < 0) {
+    if ((res = pn53x_transceive(pnd, abtReadRegisterCmd, BUFFER_SIZE(abtReadRegisterCmd), abtRes, szRes, 0)) < 0) {
       return res;
     }
     size_t i = 0;
@@ -2909,7 +2909,7 @@ pn53x_InRelease(struct nfc_device *pnd, const uint8_t ui8Target)
     uint8_t  abtStatus[PN53x_EXTENDED_FRAME__DATA_MAX_LEN];
     size_t  szStatus = sizeof(abtStatus);
     uint8_t  abtCmdGetStatus[] = { GetGeneralStatus };
-    if ((res = pn53x_transceive(pnd, abtCmdGetStatus, sizeof(abtCmdGetStatus), abtStatus, szStatus, -1)) < 0) {
+    if ((res = pn53x_transceive(pnd, abtCmdGetStatus, sizeof(abtCmdGetStatus), abtStatus, szStatus, 0)) < 0) {
       return res;
     }
     szStatus = (size_t) res;

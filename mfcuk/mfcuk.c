@@ -439,7 +439,7 @@ static uint32_t mfcuk_key_recovery_block(nfc_device *pnd, uint32_t uiUID, uint64
   nt = bswap_32_pu8(abtRx);
 
   // zveriu
-  //printf("INFO - Nonce distance %d (from 0x%08x, to 0x%08x)\n", nonce_distance(nt, nt_orig), nt, nt_orig);
+  printf("INFO - Nonce distance %d (from 0x%08x, to 0x%08x)\n", nonce_distance(nt, nt_orig), nt, nt_orig);
   nt_orig = nt;
 
   // Max log(2, MAX_TAG_NONCES) searches, i.e. log(2, 65536) = 16
@@ -599,20 +599,20 @@ static uint32_t mfcuk_key_recovery_block(nfc_device *pnd, uint32_t uiUID, uint64
   nfc_device_set_property_bool(pnd, NP_HANDLE_PARITY, false);
 
   // Transmit reader-answer
-  //printf(" Ar: ");
-  //print_hex_par(abtArEnc,64,abtArEncPar);
-
+  printf(" Ar: ");
+  print_hex_par(abtArEnc,64,abtArEncPar);
+  size_t szRx;
   int res;
-  if (0 > (res = nfc_initiator_transceive_bits(pnd, abtArEnc, 64, abtArEncPar, abtRx, sizeof(abtRx), abtRxPar))) {
+  if (0 > (res = nfc_initiator_transceive_bits(pnd, abtArEnc, 64, abtArEncPar, abtRx, &szRx, abtRxPar))) {
     if (sendSpoofAr) {
       ptrFoundTagNonceEntry->spoofParBitsEnc++;
     }
 
     return MFCUK_FAIL_AUTH;
   }
-
+ 
   // zveriu - Successful: either authentication (szRx == 32) either encrypted 0x5 reponse (szRx == 4)
-  if (res == 4) {
+  if (szRx == 4) {
     ++numHit4;
     //printf("INFO - 4-bit (szRx=%d) error code 0x5 encrypted (abtRx=0x%02x)\n", szRx, abtRx[0] & 0xf);
 
@@ -701,7 +701,7 @@ static uint32_t mfcuk_key_recovery_block(nfc_device *pnd, uint32_t uiUID, uint64
         }
       }
     }
-  } else if (res == 32) {
+  } else if (szRx == 32) {
     // Are we so MFCUKing lucky (?!), since ui64Key is a "dummy" key
     flag_key_recovered = true;
     *ui64KeyRecovered = ui64Key;
