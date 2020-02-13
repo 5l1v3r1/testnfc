@@ -32,10 +32,10 @@
 #ifndef _UNISTD_H_
 #define _UNISTD_H_
 
-#include "contrib/windows.h"
+#include "windows.h"
 
 // Needed by Sleep() under Windows
-#  include <winbase.h>
+//#  include <winbase.h>
 #  define sleep(X) Sleep( X * 1000)
 
 // With MinGW, getopt(3) is provided as separate header
