@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mfoc", "mfoc\mfoc.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libnfc151", "libnfc151\libnfc151.vcxproj", "{BB2FE7D6-574F-4F8D-880B-3A26119BE6A2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mfcuk03", "mfcuk03\mfcuk03.vcxproj", "{E8FC6787-61F0-4E4E-A5BF-9C38FFC4DEA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{BB2FE7D6-574F-4F8D-880B-3A26119BE6A2}.Release|x64.Build.0 = Release|x64
 		{BB2FE7D6-574F-4F8D-880B-3A26119BE6A2}.Release|x86.ActiveCfg = Release|Win32
 		{BB2FE7D6-574F-4F8D-880B-3A26119BE6A2}.Release|x86.Build.0 = Release|Win32
+		{E8FC6787-61F0-4E4E-A5BF-9C38FFC4DEA0}.Debug|x64.ActiveCfg = Debug|x64
+		{E8FC6787-61F0-4E4E-A5BF-9C38FFC4DEA0}.Debug|x64.Build.0 = Debug|x64
+		{E8FC6787-61F0-4E4E-A5BF-9C38FFC4DEA0}.Debug|x86.ActiveCfg = Debug|Win32
+		{E8FC6787-61F0-4E4E-A5BF-9C38FFC4DEA0}.Debug|x86.Build.0 = Debug|Win32
+		{E8FC6787-61F0-4E4E-A5BF-9C38FFC4DEA0}.Release|x64.ActiveCfg = Release|x64
+		{E8FC6787-61F0-4E4E-A5BF-9C38FFC4DEA0}.Release|x64.Build.0 = Release|x64
+		{E8FC6787-61F0-4E4E-A5BF-9C38FFC4DEA0}.Release|x86.ActiveCfg = Release|Win32
+		{E8FC6787-61F0-4E4E-A5BF-9C38FFC4DEA0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
