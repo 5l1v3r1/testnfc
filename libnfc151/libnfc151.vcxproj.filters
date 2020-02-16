@@ -53,9 +53,6 @@
     <ClCompile Include="mirror-subr.c">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="nfc.c">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
     <ClCompile Include="nfc-device.c">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
@@ -72,6 +69,9 @@
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="chips\pn53x.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="nfc.c">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>

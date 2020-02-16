@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="mfcuk.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
     <ClInclude Include="mfcuk_finger.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
@@ -36,15 +33,18 @@
     <ClInclude Include="xgetopt.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
+    <ClInclude Include="crapto1.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="mfcuk03.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="crapto1.c">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="crypto1.c">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="mfcuk.c">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="mfcuk_finger.c">
@@ -63,6 +63,9 @@
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="xgetopt.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="mfcuk03.c">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>

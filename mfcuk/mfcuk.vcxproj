@@ -19,7 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="mfcuk.h" />
+    <ClInclude Include="crapto1.h" />
+    <ClInclude Include="mfcuk03.h" />
     <ClInclude Include="mfcuk_finger.h" />
     <ClInclude Include="mfcuk_mifare.h" />
     <ClInclude Include="mfcuk_utils.h" />
@@ -30,7 +31,7 @@
   <ItemGroup>
     <ClCompile Include="crapto1.c" />
     <ClCompile Include="crypto1.c" />
-    <ClCompile Include="mfcuk.c" />
+    <ClCompile Include="mfcuk03.c" />
     <ClCompile Include="mfcuk_finger.c" />
     <ClCompile Include="mfcuk_mifare.c" />
     <ClCompile Include="mfcuk_utils.c" />

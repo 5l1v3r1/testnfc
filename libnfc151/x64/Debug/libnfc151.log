@@ -1,2 +1,33 @@
-﻿  nfc.c
+﻿  pn53x.c
+C:\Users\xavie\source\repos\testnfc\libnfc151\chips\pn53x.c(499,1): warning C4028: paramètre formel 2 différent de la déclaration
+C:\Users\xavie\source\repos\testnfc\libnfc151\chips\pn53x.c(499,1): warning C4028: paramètre formel 3 différent de la déclaration
+C:\Users\xavie\source\repos\testnfc\libnfc151\chips\pn53x.c(499,1): warning C4028: paramètre formel 4 différent de la déclaration
+C:\Users\xavie\source\repos\testnfc\libnfc151\chips\pn53x.c(535,1): warning C4267: 'initialisation' : conversion de 'size_t' en 'const uint16_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\libnfc151\chips\pn53x.c(572,1): warning C4267: 'initialisation' : conversion de 'size_t' en 'const uint16_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\libnfc151\chips\pn53x.c(2405,29): warning C4267: '=' : conversion de 'size_t' en 'byte_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\libnfc151\chips\pn53x.c(2407,37): warning C4267: '=' : conversion de 'size_t' en 'byte_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\libnfc151\chips\pn53x.c(2429,36): warning C4267: '=' : conversion de 'size_t' en 'byte_t', perte possible de données
+  acr122.c
+C:\Users\xavie\source\repos\testnfc\libnfc151\drivers\acr122.c(158,51): warning C4133: 'fonction' : types incompatibles - de 'char [1280]' à 'LPWSTR'
+C:\Users\xavie\source\repos\testnfc\libnfc151\drivers\acr122.c(157,1): warning C4267: 'initialisation' : conversion de 'size_t' en 'DWORD', perte possible de données
+C:\Users\xavie\source\repos\testnfc\libnfc151\drivers\acr122.c(170,1): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\xavie\source\repos\testnfc\libnfc151\drivers\acr122.c(209,42): warning C4133: 'fonction' : types incompatibles - de 'const char [256]' à 'LPCWSTR'
+C:\Users\xavie\source\repos\testnfc\libnfc151\drivers\acr122.c(211,44): warning C4133: 'fonction' : types incompatibles - de 'const char [256]' à 'LPCWSTR'
+C:\Users\xavie\source\repos\testnfc\libnfc151\drivers\acr122.c(288,100): warning C4267: 'fonction' : conversion de 'size_t' en 'DWORD', perte possible de données
+C:\Users\xavie\source\repos\testnfc\libnfc151\drivers\acr122.c(297,97): warning C4267: 'fonction' : conversion de 'size_t' en 'DWORD', perte possible de données
+C:\Users\xavie\source\repos\testnfc\libnfc151\drivers\acr122.c(268,1): warning C4267: 'initialisation' : conversion de 'size_t' en 'byte_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\libnfc151\drivers\acr122.c(358,36): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+  pn53x_usb.c
+C:\Users\xavie\source\repos\testnfc\libnfc151\drivers\pn53x_usb.c(136,80): warning C4267: 'fonction' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\xavie\source\repos\testnfc\libnfc151\drivers\pn53x_usb.c(154,82): warning C4267: 'fonction' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\xavie\source\repos\testnfc\libnfc151\drivers\pn53x_usb.c(620,16): warning C4267: '+=' : conversion de 'size_t' en 'off_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\libnfc151\drivers\pn53x_usb.c(642,13): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
+  iso14443-subr.c
+  log.c
+  mirror-subr.c
+  nfc-device.c
+  nfc-emulation.c
+  nfc-internal.c
+  nfc.c
+  Génération de code en cours...
   libnfc151.vcxproj -> C:\Users\xavie\source\repos\testnfc\x64\Debug\libnfc151.lib
