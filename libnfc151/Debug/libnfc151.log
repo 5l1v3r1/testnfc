@@ -1,0 +1,89 @@
+﻿  pn53x.c
+C:\Users\xavie\source\repos\testnfc\libnfc151\chips\pn53x.c(499,1): warning C4028: paramètre formel 2 différent de la déclaration
+C:\Users\xavie\source\repos\testnfc\libnfc151\chips\pn53x.c(499,1): warning C4028: paramètre formel 3 différent de la déclaration
+C:\Users\xavie\source\repos\testnfc\libnfc151\chips\pn53x.c(499,1): warning C4028: paramètre formel 4 différent de la déclaration
+C:\Users\xavie\source\repos\testnfc\libnfc151\chips\pn53x.c(535,1): warning C4267: 'initialisation' : conversion de 'size_t' en 'const uint16_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\libnfc151\chips\pn53x.c(572,1): warning C4267: 'initialisation' : conversion de 'size_t' en 'const uint16_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\libnfc151\chips\pn53x.c(2405,29): warning C4267: '=' : conversion de 'size_t' en 'byte_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\libnfc151\chips\pn53x.c(2407,37): warning C4267: '=' : conversion de 'size_t' en 'byte_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\libnfc151\chips\pn53x.c(2429,36): warning C4267: '=' : conversion de 'size_t' en 'byte_t', perte possible de données
+  acr122.c
+C:\Users\xavie\source\repos\testnfc\libnfc151\drivers\acr122.c(158,51): warning C4133: 'fonction' : types incompatibles - de 'char [1280]' à 'LPWSTR'
+C:\Users\xavie\source\repos\testnfc\libnfc151\drivers\acr122.c(176,1): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : voir la déclaration de 'strncpy'
+C:\Users\xavie\source\repos\testnfc\libnfc151\drivers\acr122.c(209,42): warning C4133: 'fonction' : types incompatibles - de 'const char [256]' à 'LPCWSTR'
+C:\Users\xavie\source\repos\testnfc\libnfc151\drivers\acr122.c(211,44): warning C4133: 'fonction' : types incompatibles - de 'const char [256]' à 'LPCWSTR'
+C:\Users\xavie\source\repos\testnfc\libnfc151\drivers\acr122.c(268,1): warning C4267: 'initialisation' : conversion de 'size_t' en 'byte_t', perte possible de données
+  pn53x_usb.c
+C:\Users\xavie\source\repos\testnfc\libnfc151\drivers\pn53x_usb.c(306,1): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : voir la déclaration de 'strcpy'
+C:\Users\xavie\source\repos\testnfc\libnfc151\drivers\pn53x_usb.c(315,1): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : voir la déclaration de 'strncpy'
+  iso14443-subr.c
+C:\Users\xavie\source\repos\testnfc\libnfc151\iso14443-subr.c(37,1): warning C4273: 'iso14443a_crc' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(101,19): message : voir la définition précédente de 'iso14443a_crc'
+C:\Users\xavie\source\repos\testnfc\libnfc151\iso14443-subr.c(54,1): warning C4273: 'iso14443a_crc_append' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(102,19): message : voir la définition précédente de 'iso14443a_crc_append'
+C:\Users\xavie\source\repos\testnfc\libnfc151\iso14443-subr.c(60,1): warning C4273: 'iso14443a_locate_historical_bytes' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(103,23): message : voir la définition précédente de 'iso14443a_locate_historical_bytes'
+  log.c
+  mirror-subr.c
+  nfc-device.c
+  nfc-emulation.c
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc-emulation.c(33,1): warning C4273: 'nfc_emulate_target' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc-emulation.h(45,19): message : voir la définition précédente de 'nfc_emulate_target'
+  nfc-internal.c
+  nfc.c
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc.c(82,1): warning C4273: 'nfc_connect' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(66,28): message : voir la définition précédente de 'nfc_connect'
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc.c(132,1): warning C4273: 'nfc_disconnect' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(67,19): message : voir la définition précédente de 'nfc_disconnect'
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc.c(151,1): warning C4273: 'nfc_list_devices' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(69,19): message : voir la définition précédente de 'nfc_list_devices'
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc.c(185,1): warning C4273: 'nfc_configure' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(70,19): message : voir la définition précédente de 'nfc_configure'
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc.c(211,1): warning C4273: 'nfc_initiator_init' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(74,19): message : voir la définition précédente de 'nfc_initiator_init'
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc.c(276,1): warning C4273: 'nfc_initiator_select_passive_target' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(75,19): message : voir la définition précédente de 'nfc_initiator_select_passive_target'
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc.c(315,1): warning C4273: 'nfc_initiator_list_passive_targets' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(76,19): message : voir la définition précédente de 'nfc_initiator_list_passive_targets'
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc.c(377,1): warning C4273: 'nfc_initiator_poll_target' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(77,19): message : voir la définition précédente de 'nfc_initiator_poll_target'
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc.c(401,1): warning C4273: 'nfc_initiator_select_dep_target' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(78,19): message : voir la définition précédente de 'nfc_initiator_select_dep_target'
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc.c(419,1): warning C4273: 'nfc_initiator_deselect_target' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(79,19): message : voir la définition précédente de 'nfc_initiator_deselect_target'
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc.c(449,1): warning C4273: 'nfc_initiator_transceive_bytes' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(80,19): message : voir la définition précédente de 'nfc_initiator_transceive_bytes'
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc.c(491,1): warning C4273: 'nfc_initiator_transceive_bits' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(81,19): message : voir la définition précédente de 'nfc_initiator_transceive_bits'
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc.c(518,1): warning C4273: 'nfc_initiator_transceive_bytes_timed' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(82,19): message : voir la définition précédente de 'nfc_initiator_transceive_bytes_timed'
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc.c(546,1): warning C4273: 'nfc_initiator_transceive_bits_timed' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(83,19): message : voir la définition précédente de 'nfc_initiator_transceive_bits_timed'
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc.c(582,1): warning C4273: 'nfc_target_init' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(86,19): message : voir la définition précédente de 'nfc_target_init'
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc.c(622,1): warning C4273: 'nfc_idle' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(71,19): message : voir la définition précédente de 'nfc_idle'
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc.c(639,1): warning C4273: 'nfc_abort_command' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(68,19): message : voir la définition précédente de 'nfc_abort_command'
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc.c(660,1): warning C4273: 'nfc_target_send_bytes' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(87,19): message : voir la définition précédente de 'nfc_target_send_bytes'
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc.c(680,1): warning C4273: 'nfc_target_receive_bytes' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(88,19): message : voir la définition précédente de 'nfc_target_receive_bytes'
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc.c(693,1): warning C4273: 'nfc_target_send_bits' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(89,19): message : voir la définition précédente de 'nfc_target_send_bits'
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc.c(710,1): warning C4273: 'nfc_target_receive_bits' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(90,19): message : voir la définition précédente de 'nfc_target_receive_bits'
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc.c(720,1): warning C4273: 'nfc_strerror' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(93,26): message : voir la définition précédente de 'nfc_strerror'
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc.c(730,1): warning C4273: 'nfc_strerror_r' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(94,18): message : voir la définition précédente de 'nfc_strerror_r'
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc.c(739,1): warning C4273: 'nfc_perror' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(95,19): message : voir la définition précédente de 'nfc_perror'
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc.c(751,1): warning C4273: 'nfc_device_name' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(98,26): message : voir la définition précédente de 'nfc_device_name'
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc.c(763,1): warning C4273: 'nfc_version' : liaison DLL incohérente
+C:\Users\xavie\source\repos\testnfc\libnfc151\nfc\nfc.h(104,26): message : voir la définition précédente de 'nfc_version'
+  Génération de code en cours...

@@ -1,0 +1,120 @@
+﻿  crapto1.c
+  crypto1.c
+  mfcuk.c
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(898,10): warning C4013: 'sleep' non défini(e) ; extern retournant int pris par défaut
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1030,17): warning C4013: 'clear_screen' non défini(e) ; extern retournant int pris par défaut
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1052,24): warning C4013: 'getopt' non défini(e) ; extern retournant int pris par défaut
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1058,64): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1058,64): warning C4047: 'fonction' : les niveaux d'indirection de 'const char *' et de 'int' sont différents
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1058,64): warning C4024: 'strncpy' : types différents pour le paramètre formel et réel 2
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1067,35): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1067,35): warning C4047: 'fonction' : les niveaux d'indirection de 'const char *' et de 'int' sont différents
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1067,35): warning C4024: 'strlen' : types différents pour le paramètre formel et réel 1
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1070,21): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1070,21): warning C4477: 'fprintf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 1 est de type 'int'
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1076,40): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1076,47): error C2109: un indice requiert un type tableau ou pointeur
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1076,48): error C2198: 'is_hex' : pas assez d'arguments pour un appel
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1076,67): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1076,78): error C2109: un indice requiert un type tableau ou pointeur
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1076,79): error C2198: 'is_hex' : pas assez d'arguments pour un appel
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1079,25): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1079,25): warning C4477: 'fprintf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 1 est de type 'int'
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1082,48): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1082,55): error C2109: un indice requiert un type tableau ou pointeur
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1082,64): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1082,75): error C2109: un indice requiert un type tableau ou pointeur
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1082,76): error C2198: 'hex2bin' : pas assez d'arguments pour un appel
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1107,39): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1107,39): warning C4047: 'fonction' : les niveaux d'indirection de 'const char *' et de 'int' sont différents
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1107,39): warning C4024: 'atoi' : types différents pour le paramètre formel et réel 1
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1109,21): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1109,21): warning C4477: 'fprintf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 1 est de type 'int'
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1119,39): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1119,39): warning C4047: 'fonction' : les niveaux d'indirection de 'const char *' et de 'int' sont différents
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1119,39): warning C4024: 'atoi' : types différents pour le paramètre formel et réel 1
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1121,21): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1121,21): warning C4477: 'fprintf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 1 est de type 'int'
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1132,35): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1132,35): warning C4047: 'fonction' : les niveaux d'indirection de 'const char *' et de 'int' sont différents
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1132,35): warning C4024: 'strlen' : types différents pour le paramètre formel et réel 1
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1135,21): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1135,21): warning C4477: 'fprintf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 1 est de type 'int'
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1141,40): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1141,47): error C2109: un indice requiert un type tableau ou pointeur
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1141,48): error C2198: 'is_hex' : pas assez d'arguments pour un appel
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1141,67): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1141,78): error C2109: un indice requiert un type tableau ou pointeur
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1141,79): error C2198: 'is_hex' : pas assez d'arguments pour un appel
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1144,25): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1144,25): warning C4477: 'fprintf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 1 est de type 'int'
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1147,48): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1147,55): error C2109: un indice requiert un type tableau ou pointeur
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1147,64): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1147,75): error C2109: un indice requiert un type tableau ou pointeur
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1147,76): error C2198: 'hex2bin' : pas assez d'arguments pour un appel
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1159,39): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1159,39): warning C4047: 'fonction' : les niveaux d'indirection de 'const char *' et de 'int' sont différents
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1159,39): warning C4024: 'atoi' : types différents pour le paramètre formel et réel 1
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1161,21): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1161,21): warning C4477: 'fprintf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 1 est de type 'int'
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1171,39): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1171,39): warning C4047: 'fonction' : les niveaux d'indirection de 'const char *' et de 'int' sont différents
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1171,39): warning C4024: 'atoi' : types différents pour le paramètre formel et réel 1
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1173,21): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1173,21): warning C4477: 'fprintf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 1 est de type 'int'
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1191,29): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1191,29): warning C4047: '=' : les niveaux d'indirection de 'char *' et de 'int' sont différents
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1320,53): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1320,53): warning C4047: 'fonction' : les niveaux d'indirection de 'char *' et de 'int' sont différents
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1320,53): warning C4024: 'mfcuk_load_tag_dump' : types différents pour le paramètre formel et réel 1
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1322,25): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1322,25): warning C4477: 'fprintf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 1 est de type 'int'
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1334,57): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1334,57): warning C4047: 'fonction' : les niveaux d'indirection de 'char *' et de 'int' sont différents
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1334,57): warning C4024: 'mfcuk_load_tag_dump_ext' : types différents pour le paramètre formel et réel 1
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1336,25): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1336,25): warning C4477: 'fprintf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 1 est de type 'int'
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1349,55): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1349,55): warning C4047: 'fonction' : les niveaux d'indirection de 'const char *' et de 'int' sont différents
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1349,55): warning C4024: 'strncpy' : types différents pour le paramètre formel et réel 2
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1366,29): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1366,29): warning C4047: '=' : les niveaux d'indirection de 'char *' et de 'int' sont différents
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1379,25): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1379,25): warning C4477: 'fprintf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 1 est de type 'int'
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1418,29): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1418,29): warning C4477: 'fprintf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 1 est de type 'int'
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1469,49): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1469,49): warning C4047: 'fonction' : les niveaux d'indirection de 'char *' et de 'int' sont différents
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1469,49): warning C4024: 'mfcuk_load_tag_dump' : types différents pour le paramètre formel et réel 1
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1471,21): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1471,21): warning C4477: 'fprintf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 1 est de type 'int'
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1491,87): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1491,32): warning C4477: 'printf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 1 est de type 'int'
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1496,79): error C2065: 'optarg' : identificateur non déclaré
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1496,32): warning C4477: 'printf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 1 est de type 'int'
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1058,1): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : voir la déclaration de 'strncpy'
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1193,1): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(440): message : voir la déclaration de 'strtok'
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1349,1): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : voir la déclaration de 'strncpy'
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk.c(1370,1): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(440): message : voir la déclaration de 'strtok'
+  mfcuk_finger.c
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk_finger.c(152,1): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : voir la déclaration de 'fopen'
+  mfcuk_mifare.c
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk_mifare.c(365,1): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : voir la déclaration de 'fopen'
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk_mifare.c(390,1): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : voir la déclaration de 'fopen'
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk_mifare.c(415,1): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : voir la déclaration de 'fopen'
+C:\Users\xavie\source\repos\testnfc\mfcuk03\mfcuk_mifare.c(440,1): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : voir la déclaration de 'fopen'
+  mfcuk_utils.c
+  mifare.c
+  nfc-utils.c
+  xgetopt.c
+  Génération de code en cours...

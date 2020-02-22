@@ -1,0 +1,89 @@
+﻿  xgetopt.c
+  cmdhfmfhard.c
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(106,79): warning C4013: 'num_CPUs' non défini(e) ; extern retournant int pris par défaut
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(117,9): warning C4003: pas assez d'arguments pour l'appel de macro de type fonction 'msclock'
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(118,27): warning C4003: pas assez d'arguments pour l'appel de macro de type fonction 'msclock'
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(119,31): warning C4003: pas assez d'arguments pour l'appel de macro de type fonction 'msclock'
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(252,15): warning C4013: 'getcwd' non défini(e) ; extern retournant int pris par défaut
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(252,42): warning C4047: '==' : les niveaux d'indirection de 'int' et de 'void *' sont différents
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(300,34): warning C4013: 'lzma_init_inflate' non défini(e) ; extern retournant int pris par défaut
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(582,53): warning C4244: '=' : conversion de 'uint16_t' en 'uint8_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(700,56): warning C4244: 'return' : conversion de 'double' en 'float', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(862,50): warning C4244: '=' : conversion de 'uint16_t' en 'uint8_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(871,34): warning C4244: 'return' : conversion de 'double' en 'float', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(887,154): warning C4244: '+=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(889,131): warning C4244: '+=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(899,32): warning C4244: '=' : conversion de 'uint16_t' en 'uint8_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(904,134): warning C4244: '+=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(906,119): warning C4244: '+=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(920,92): warning C4244: 'fonction' : conversion de 'uint16_t' en 'uint8_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(956,161): warning C4244: '+=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(958,137): warning C4244: '+=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(969,26): warning C4244: '=' : conversion de 'uint16_t' en 'uint8_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(1016,1): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(1066,13): warning C4003: pas assez d'arguments pour l'appel de macro de type fonction 'msclock'
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(1150,69): warning C4244: 'fonction' : conversion de 'uint16_t' en 'uint8_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(1150,72): warning C4244: 'fonction' : conversion de 'uint16_t' en 'uint8_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(1151,69): warning C4244: 'fonction' : conversion de 'uint16_t' en 'uint8_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(1283,25): warning C4003: pas assez d'arguments pour l'appel de macro de type fonction 'msclock'
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(1340,13): warning C4003: pas assez d'arguments pour l'appel de macro de type fonction 'msclock'
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(1341,29): warning C4003: pas assez d'arguments pour l'appel de macro de type fonction 'msclock'
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(1343,29): warning C4003: pas assez d'arguments pour l'appel de macro de type fonction 'msclock'
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(1482,44): warning C4244: 'fonction' : conversion de 'uint16_t' en 'uint_fast8_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(1527,26): warning C4244: '=' : conversion de '__int64' en 'uint32_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(1995,18): warning C4003: pas assez d'arguments pour l'appel de macro de type fonction 'msclock'
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(2060,47): warning C4244: 'fonction' : conversion de 'uint16_t' en 'uint8_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc\cmdhfmfhard.c(2027,1): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+  crapto1.c
+  crypto1.c
+  mfoc.c
+C:\Users\xavie\source\repos\testnfc\mfoc\mfoc.c(157,33): warning C4090: 'fonction' : qualificateurs 'const' différents
+C:\Users\xavie\source\repos\testnfc\mfoc\mfoc.c(240,24): warning C4047: 'fonction' : les niveaux d'indirection de 'int *(__cdecl *)()' et de 'int' sont différents
+C:\Users\xavie\source\repos\testnfc\mfoc\mfoc.c(240,24): warning C4024: 'usage' : types différents pour le paramètre formel et réel 2
+C:\Users\xavie\source\repos\testnfc\mfoc\mfoc.c(187,1): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc\mfoc.c(1082,27): warning C4244: '=' : conversion de 'unsigned __int64' en 'uint32_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc\mfoc.c(1092,52): warning C4244: 'fonction' : conversion de 'unsigned __int64' en 'uint32_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc\mfoc.c(1161,87): warning C4244: 'fonction' : conversion de 'unsigned __int64' en 'uint32_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc\mfoc.c(1161,91): warning C4244: '=' : conversion de 'unsigned __int64' en 'uint32_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc\mfoc.c(1229,32): warning C4244: '=' : conversion de 'unsigned __int64' en 'uint32_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc\mfoc.c(1301,32): warning C4244: '=' : conversion de 'unsigned __int64' en 'uint32_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc\mfoc.c(1337,44): warning C4244: 'return' : conversion de 'uint64_t' en 'int', perte possible de données
+  parity.c
+  Génération de code en cours...
+LINK : warning LNK4075: ' /INCREMENTAL' ignoré à cause de la spécification '/FORCE'
+     Création de la bibliothèque C:\Users\xavie\source\repos\testnfc\x64\Debug\mfoc.lib et de l'objet C:\Users\xavie\source\repos\testnfc\x64\Debug\mfoc.exp
+LINK : warning LNK4217: le symbole 'nfc_init' défini dans 'nfc.obj' est importé par 'mfoc.obj' dans la fonction 'mf_init'
+LINK : warning LNK4217: le symbole 'nfc_exit' défini dans 'nfc.obj' est importé par 'mfoc.obj' dans la fonction 'get_rats_is_2k'
+LINK : warning LNK4217: le symbole 'nfc_open' défini dans 'nfc.obj' est importé par 'mfoc.obj' dans la fonction 'mf_init'
+LINK : warning LNK4217: le symbole 'nfc_close' défini dans 'nfc.obj' est importé par 'mfoc.obj' dans la fonction 'get_rats_is_2k'
+LINK : warning LNK4217: le symbole 'nfc_initiator_init' défini dans 'nfc.obj' est importé par 'mfoc.obj' dans la fonction 'main'
+LINK : warning LNK4217: le symbole 'nfc_initiator_select_passive_target' défini dans 'nfc.obj' est importé par 'mfoc.obj' dans la fonction 'get_rats_is_2k'
+LINK : warning LNK4217: le symbole 'nfc_initiator_transceive_bytes' défini dans 'nfc.obj' est importé par 'mfoc.obj' dans la fonction 'get_rats_is_2k'
+LINK : warning LNK4217: le symbole 'nfc_initiator_transceive_bits' défini dans 'nfc.obj' est importé par 'mfoc.obj' dans la fonction 'mf_enhanced_auth'
+LINK : warning LNK4217: le symbole 'nfc_perror' défini dans 'nfc.obj' est importé par 'mfoc.obj' dans la fonction 'get_rats_is_2k'
+LINK : warning LNK4217: le symbole 'nfc_device_set_property_bool' défini dans 'nfc.obj' est importé par 'mfoc.obj' dans la fonction 'get_rats_is_2k'
+LINK : warning LNK4217: le symbole 'iso14443a_crc_append' défini dans 'iso14443-subr.obj' est importé par 'mfoc.obj' dans la fonction 'mf_enhanced_auth'
+cmdhfmfhard.obj : error LNK2019: symbole externe non résolu PrintAndLog référencé dans la fonction add_bitflip_candidates
+cmdhfmfhard.obj : error LNK2019: symbole externe non résolu prepare_bf_test_nonces référencé dans la fonction mfnestedhard
+cmdhfmfhard.obj : error LNK2019: symbole externe non résolu brute_force_bs référencé dans la fonction brute_force
+cmdhfmfhard.obj : error LNK2019: symbole externe non résolu brute_force_benchmark référencé dans la fonction mfnestedhard
+cmdhfmfhard.obj : error LNK2019: symbole externe non résolu trailing_zeros référencé dans la fonction all_bitflips_match
+cmdhfmfhard.obj : error LNK2019: symbole externe non résolu GetSIMDInstrAuto référencé dans la fonction get_SIMD_instruction_set
+cmdhfmfhard.obj : error LNK2019: symbole externe non résolu malloc_bitarray référencé dans la fonction add_matching_states
+cmdhfmfhard.obj : error LNK2019: symbole externe non résolu free_bitarray référencé dans la fonction add_matching_states
+cmdhfmfhard.obj : error LNK2019: symbole externe non résolu bitarray_AND référencé dans la fonction update_sum_bitarrays
+cmdhfmfhard.obj : error LNK2019: symbole externe non résolu count_bitarray_AND référencé dans la fonction apply_sum_a0
+cmdhfmfhard.obj : error LNK2019: symbole externe non résolu count_bitarray_low20_AND référencé dans la fonction update_allbitflips_array
+cmdhfmfhard.obj : error LNK2019: symbole externe non résolu bitarray_AND4 référencé dans la fonction add_matching_states
+cmdhfmfhard.obj : error LNK2019: symbole externe non résolu bitarray_OR référencé dans la fonction init_sum_bitarrays
+cmdhfmfhard.obj : error LNK2019: symbole externe non résolu count_bitarray_AND2 référencé dans la fonction update_sum_bitarrays
+cmdhfmfhard.obj : error LNK2019: symbole externe non résolu count_bitarray_AND3 référencé dans la fonction estimated_num_states_part_sum
+cmdhfmfhard.obj : error LNK2019: symbole externe non résolu count_bitarray_AND4 référencé dans la fonction estimated_num_states_part_sum
+cmdhfmfhard.obj : error LNK2019: symbole externe non résolu get_bitflip référencé dans la fonction check_for_BitFlipProperties_thread
+cmdhfmfhard.obj : error LNK2019: symbole externe non résolu num_CPUs référencé dans la fonction print_progress_header
+cmdhfmfhard.obj : error LNK2019: symbole externe non résolu lzma_init_inflate référencé dans la fonction check_for_BitFlipProperties_thread
+mfoc.obj : error LNK2019: symbole externe non résolu nfc_initiator_mifare_cmd référencé dans la fonction main
+mfoc.obj : error LNK2019: symbole externe non résolu oddparity référencé dans la fonction mf_enhanced_auth
+mfoc.obj : error LNK2019: symbole externe non résolu print_hex référencé dans la fonction main
+mfoc.obj : error LNK2019: symbole externe non résolu print_nfc_target référencé dans la fonction main
+C:\Users\xavie\source\repos\testnfc\x64\Debug\mfoc.exe : fatal error LNK1120: 23 externes non résolus

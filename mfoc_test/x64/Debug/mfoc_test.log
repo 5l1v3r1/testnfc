@@ -1,0 +1,32 @@
+﻿  mfoc.c
+C:\Users\xavie\source\repos\testnfc\mfoc_test\mfoc.c(143,33): warning C4090: 'fonction' : qualificateurs 'const' différents
+C:\Users\xavie\source\repos\testnfc\mfoc_test\mfoc.c(223,24): warning C4047: 'fonction' : les niveaux d'indirection de 'int *(__cdecl *)()' et de 'int' sont différents
+C:\Users\xavie\source\repos\testnfc\mfoc_test\mfoc.c(223,24): warning C4024: 'usage' : types différents pour le paramètre formel et réel 2
+C:\Users\xavie\source\repos\testnfc\mfoc_test\mfoc.c(170,1): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc_test\mfoc.c(887,7): warning C4101: 'szRxBits' : variable locale non référencée
+C:\Users\xavie\source\repos\testnfc\mfoc_test\mfoc.c(981,27): warning C4244: '=' : conversion de 'unsigned __int64' en 'uint32_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc_test\mfoc.c(991,52): warning C4244: 'fonction' : conversion de 'unsigned __int64' en 'uint32_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc_test\mfoc.c(1060,87): warning C4244: 'fonction' : conversion de 'unsigned __int64' en 'uint32_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc_test\mfoc.c(1060,91): warning C4244: '=' : conversion de 'unsigned __int64' en 'uint32_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc_test\mfoc.c(1128,32): warning C4244: '=' : conversion de 'unsigned __int64' en 'uint32_t', perte possible de données
+C:\Users\xavie\source\repos\testnfc\mfoc_test\mfoc.c(1202,44): warning C4244: 'return' : conversion de 'uint64_t' en 'int', perte possible de données
+LINK : warning LNK4075: ' /INCREMENTAL' ignoré à cause de la spécification '/FORCE'
+slre.obj : warning LNK4006: slre_match déjà défini dans mfoc.obj ; seconde définition ignorée
+     Création de la bibliothèque C:\Users\xavie\source\repos\testnfc\x64\Debug\mfoc_test.lib et de l'objet C:\Users\xavie\source\repos\testnfc\x64\Debug\mfoc_test.exp
+LINK : warning LNK4217: le symbole 'nfc_init' défini dans 'nfc.obj' est importé par 'mfoc.obj' dans la fonction 'mf_init'
+LINK : warning LNK4217: le symbole 'nfc_exit' défini dans 'nfc.obj' est importé par 'mfoc.obj' dans la fonction 'get_rats_is_2k'
+LINK : warning LNK4217: le symbole 'nfc_open' défini dans 'nfc.obj' est importé par 'mfoc.obj' dans la fonction 'mf_init'
+LINK : warning LNK4217: le symbole 'nfc_close' défini dans 'nfc.obj' est importé par 'mfoc.obj' dans la fonction 'get_rats_is_2k'
+LINK : warning LNK4217: le symbole 'nfc_initiator_init' défini dans 'nfc.obj' est importé par 'mfoc.obj' dans la fonction 'main'
+LINK : warning LNK4217: le symbole 'nfc_initiator_select_passive_target' défini dans 'nfc.obj' est importé par 'mfoc.obj' dans la fonction 'get_rats_is_2k'
+LINK : warning LNK4217: le symbole 'nfc_initiator_transceive_bytes' défini dans 'nfc.obj' est importé par 'mfoc.obj' dans la fonction 'get_rats_is_2k'
+LINK : warning LNK4286: le symbole 'nfc_initiator_transceive_bytes' défini dans 'nfc.obj' est importé par 'mifare.obj'
+LINK : warning LNK4217: le symbole 'nfc_initiator_transceive_bits' défini dans 'nfc.obj' est importé par 'mfoc.obj' dans la fonction 'mf_enhanced_auth'
+LINK : warning LNK4217: le symbole 'nfc_perror' défini dans 'nfc.obj' est importé par 'mfoc.obj' dans la fonction 'get_rats_is_2k'
+LINK : warning LNK4217: le symbole 'nfc_device_set_property_bool' défini dans 'nfc.obj' est importé par 'mfoc.obj' dans la fonction 'get_rats_is_2k'
+LINK : warning LNK4286: le symbole 'nfc_device_set_property_bool' défini dans 'nfc.obj' est importé par 'mifare.obj'
+LINK : warning LNK4217: le symbole 'iso14443a_crc_append' défini dans 'iso14443-subr.obj' est importé par 'mfoc.obj' dans la fonction 'mf_enhanced_auth'
+LINK : warning LNK4217: le symbole 'nfc_free' défini dans 'nfc.obj' est importé par 'nfc-utils.obj' dans la fonction 'print_nfc_target'
+LINK : warning LNK4217: le symbole 'str_nfc_target' défini dans 'nfc.obj' est importé par 'nfc-utils.obj' dans la fonction 'print_nfc_target'
+C:\Users\xavie\source\repos\testnfc\x64\Debug\mfoc_test.exe : warning LNK4088: image en cours de génération à cause de l'option /FORCE ; l'image risque de ne pas s'exécuter
+  mfoc_test.vcxproj -> C:\Users\xavie\source\repos\testnfc\x64\Debug\mfoc_test.exe

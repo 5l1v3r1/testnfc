@@ -117,7 +117,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>nfc_EXPORTS;LOG;DRIVER_ACR122_USB_ENABLED;DEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>nfc_EXPORTS;DRIVER_ACR122_USB_ENABLED;DEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>..;..\win32;.;</AdditionalIncludeDirectories>
       <OmitDefaultLibName>false</OmitDefaultLibName>
